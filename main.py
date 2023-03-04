@@ -11,7 +11,7 @@ def main():
                            marker='.',
                            markersize=3,
                            linestyle='')
-    plt.title('Consumptions')
+    plt.title('Consumptions Plot')
     plt.savefig('figure.png')
     
 if __name__=='__main__':
