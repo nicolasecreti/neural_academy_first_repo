@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 def main():
-    #legge il csv
+    #legge il file csv
     df = pd.read_csv(
         'datasets/OPSD_Germany_all.csv',
         parse_dates=True,
